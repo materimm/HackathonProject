@@ -21,18 +21,17 @@ ol,ul {
 	
 }
 
-:focus {
-	outline: 0;
-}
+
 
 body {
-	font-family: arial;
-	color: grey;
-	background: #E8E9EC;
-	line-height: 1;
-	text-align: left;
+
 }
 
+.bodysize{
+height: 606px;
+width: auto;
+	
+}
 a {
 	text-decoration: none;
 }
@@ -69,6 +68,14 @@ label span {
     font-size: 16px;
     font-weight: bold;
 }
+
+.ma-heading-button {
+    color: #white;
+    font-family: GE Inspira, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .ma-label{
     color: #444;
     font-weight: bold;
@@ -90,25 +97,30 @@ h2.ma-heading
 	width: 20px;
 	}
 	
+	li {
+    display: inline;
+}
+li.block{
+	display:block;
+}
+	
 .backgroundimage{
 	
-	background-image:url('http://content.seamless.com/SwDesign/img/background/Seamless-Food-Delivery_stepOne_Burrito_13.jpg');
+	background-image:url("../images/ordernow.jpg");
+	width:100%;
+	height:100%;
 }
-
 
 #lead_content {
   padding-bottom: 60px;
   position: relative;
+  padding-top:100px;
 }
 
-@media (min-width: 992px) {
-  #lead_content {
-  padding-top: 200px;
-    padding-bottom: 160px;
-  }
-  
-  .largeleftmargin{
-  margin-left:400px;}
+.centering{
+	min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
 }
   
   .text-center {
@@ -137,4 +149,130 @@ text-align: center;
 background-color: #5cb85c;
 border-color: #4cae4c;
 }
+
+.clear {
+	clear: both;
+}
+.clear-padding{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.menutoppadding{
+	padding-top:100px;
+}
+
+.menuoptionstext{
+	 font-family: GE Inspira, sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    
+}
+.menutext{
+	 font-family: GE Inspira, sans-serif;
+    font-size: 14px;
+}
+.menubackground{
+	background-color : #99FFCC;
+	border: 1px solid #008000;
+}
+
+ .menuheading{
+      color: #3670BB;
+    font-family: GE Inspira, sans-serif;
+    font-size: 18px;
+
+  }
+
+#pantrylist {
+background-color: #181818 ;
+color: #ffffff;
+border-radius: 5px;
+padding: 0.5em 0.5em 0.5em 0.5em;
+opacity: 0.85;
+
+
+@media (min-width: 992px) {
+  #lead_content {
+  padding-top: 200px;
+    padding-bottom: 160px;
+  }
+  
+  	.mediumleftmargin{
+	margin-left:300px;}
+	
+	#waitlist_wrapper {
+margin: 75px 0;
+	
+	
+}
+}
+  
+
+@media (max-width: 992px) {
+						
+	.marginTenTop{
+	.margin-top:10px}
+	
+	#lead_content {
+  padding-top: 100px;
+    padding-bottom: 160px;
+  }
+  
+  	.mediumleftmargin{
+	margin-left:200px;}
+  
+  	.backgroundimage{
+	background-image:none;
+	  background: -webkit-linear-gradient(white, #E8E9EC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #E8E9EC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #E8E9EC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #E8E9EC); /* Standard syntax */}
+  
+}
+
+@media (max-width: 1200px){
+
+	.mediumleftmargin{
+	margin-left:300px;}
+}
+
+@media (min-width: 1200px) {
+	
+  .largeleftmargin {
+  margin-left:400px;
+  }
+  
+  .formleftmargin{
+  margin-left:18px;}
+	
+}
+
+@media(max-width:768px){
+
+  
+  .ma-heading{
+      color: #3670BB;
+    font-family: GE Inspira, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .center {
+    margin: auto;
+    width: 70%;
+}
+	.marginFifteenTopButton{
+	margin-top:15px;
+						}
+						
+	.mediumleftmargin{
+	margin-left:40px;}
+
+}
+
+@media(min-width:768px){
+
+
+	
 }
