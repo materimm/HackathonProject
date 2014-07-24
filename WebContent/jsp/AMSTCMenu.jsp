@@ -8,11 +8,12 @@
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script src="../javascript/menuFilters.js"></script>
+<script src="../javascript/checkOut.js"></script>
 
 <title>Menu</title>
 
 </head>
-<body>
+<body onload="init()">
 	<h2>AMSTC - Today's Menu</h2>
 	<ul id="stations">
 		<li id="special">Special</li>
@@ -20,8 +21,13 @@
 		<li id="pizza">Pizzaria</li>
 		<li id="sw">Sandwiches</li>
 		<li id="mex">Tacos</li>
-		<li id="d&s">Drinks & Snacks</li>
+		<li id="dands">Drinks and Snacks</li>
 	</ul>	
+	
+	<ul id="specialMenu">
+		<li><input type="checkbox" id="ml">Meatloaf</li>
+		<li><input type="checkbox" id="tb">Turkey Breast</li>
+	</ul>
 	
 	<ul id="grillMenu">
 		<li><input type="checkbox" id="hb">Hamburger</li>
@@ -51,6 +57,8 @@
 		<li><input type="checkbox" id="juice">Juice</li>
 		<li><input type="checkbox" id="bw">Bottled Water</li>
 	</ul>
+	
+	<input type="button" id="checkout" value="Check Out" onclick="checkOut()">
 	
 </body>
 </html>
