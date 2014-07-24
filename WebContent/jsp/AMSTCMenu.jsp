@@ -38,7 +38,7 @@
 	<ul id="swMenu">
 		<li><input type="checkbox" id="ccw">Chicken Ceasar Wrap</li>
 		<li><input type="checkbox" id="rue">Rueban</li>
-		<li><input type="checkbox" id="tb">Turkey Bacon</li>
+		<li><input type="checkbox" id="tbac">Turkey Bacon</li>
 	</ul>
 	
 	<ul id="mexMenu">
@@ -59,6 +59,6 @@
 	</ul>
 	
 	<input type="button" id="checkout" value="Check Out" onclick="checkOut()">
-	
+
 </body>
 </html>
