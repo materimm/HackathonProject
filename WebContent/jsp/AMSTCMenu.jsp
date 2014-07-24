@@ -9,48 +9,47 @@
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script src="../javascript/menuFilters.js"></script>
 
-
-
 <title>Menu</title>
 
 </head>
 <body>
 	<h2>AMSTC - Today's Menu</h2>
 	<ul id="stations">
+		<li id="special">Special</li>
 		<li id="grill">Grill</li>
-		<li id="sw">Sandwich Station</li>
-		<li id="mex">Mexican</li>
-		<li id="pizza">Pizza</li>
-		<li id="drink">Drinks</li>
+		<li id="pizza">Pizzaria</li>
+		<li id="sw">Sandwiches</li>
+		<li id="mex">Tacos</li>
+		<li id="d&s">Drinks & Snacks</li>
 	</ul>	
 	
 	<ul id="grillMenu">
-		<li id="hb">Hamburger</li>
-		<li id="cs">Chicken Sandwich</li>
-		<li id="ff">French Fries</li>
+		<li><input type="checkbox" id="hb">Hamburger</li>
+		<li><input type="checkbox" id="cs">Chicken Sandwich</li>
+		<li><input type="checkbox" id="ff">French Fries</li>
 	</ul>
 	
 	<ul id="swMenu">
-		<li>Chicken Ceasar Wrap</li>
-		<li>Rueban</li>
-		<li>Turkey Bacon</li>
+		<li><input type="checkbox" id="ccw">Chicken Ceasar Wrap</li>
+		<li><input type="checkbox" id="rue">Rueban</li>
+		<li><input type="checkbox" id="tb">Turkey Bacon</li>
 	</ul>
 	
 	<ul id="mexMenu">
-		<li>Taco</li>
-		<li>Rice</li>
+		<li><input type="checkbox" id="taco">Taco</li>
+		<li><input type="checkbox" id="rice">Rice</li>
 	</ul>
 	
 	<ul id="pizzaMenu">
-		<li>Pizza slice</li>
-		<li>Calzone</li>
-		<li>Pizzarita</li>
+		<li><input type="checkbox" id="ps">Pizza slice</li>
+		<li><input type="checkbox" id="cal">Calzone</li>
+		<li><input type="checkbox" id="piz">Pizzarita</li>
 	</ul>
 	
 	<ul id="drinkMenu">
-		<li>Fountain Drink</li>
-		<li>Juice</li>
-		<li>Bottled Water</li>
+		<li><input type="checkbox" id="fd">Fountain Drink</li>
+		<li><input type="checkbox" id="juice">Juice</li>
+		<li><input type="checkbox" id="bw">Bottled Water</li>
 	</ul>
 	
 </body>
