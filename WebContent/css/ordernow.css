@@ -1,0 +1,140 @@
+@import url('bootstrap-3.2.0-dist/css/bootstrap.css');
+
+html{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  
+}
+
+/* GENERAL */
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,img,strike,b,center,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+
+ol,ul {
+	
+}
+
+:focus {
+	outline: 0;
+}
+
+body {
+	font-family: arial;
+	color: grey;
+	background: #E8E9EC;
+	line-height: 1;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3 {
+	font-weight: bold;
+	color: #ccc;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+label {
+	padding: 3px 3px 3px 0px;
+	display: block;
+}
+
+label span {
+	color: red;
+}
+
+.ma-heading {
+    color: #3670BB;
+    font-family: GE Inspira, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.ma-heading-small{
+	  color: #3670BB;
+    font-family: GE Inspira, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ma-label{
+    color: #444;
+    font-weight: bold;
+}
+h2.ma-heading
+{
+    color: #3670BB;
+    font-family: GE Inspira, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header{
+    width: 100%;
+    font-family: GE Inspira, sans-serif;
+    height: 80px;
+}
+
+.gelogo {
+	width: 20px;
+	}
+	
+.backgroundimage{
+	
+	background-image:url('http://content.seamless.com/SwDesign/img/background/Seamless-Food-Delivery_stepOne_Burrito_13.jpg');
+}
+
+
+#lead_content {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  #lead_content {
+  padding-top: 200px;
+    padding-bottom: 160px;
+  }
+  
+  .largeleftmargin{
+  margin-left:400px;}
+}
+  
+  .text-center {
+text-align: center;
+}
+
+.homeMarginTop{
+	margin-top: 420px;
+}
+
+.marginFifteenTop
+{
+	margin-top: 15px;
+}
+
+.clearpaddingleft{
+	padding-left:0px;
+}
+
+.clearpaddingright{
+	padding-right:0px;
+}
+
+.btngreen{
+	color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
+}
