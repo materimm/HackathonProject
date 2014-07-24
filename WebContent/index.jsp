@@ -8,7 +8,8 @@
 <head>
 <link href="css/ordernow.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<script src="../javascript/findMenu.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="javascript/findMenu.js"></script>
 
 <title>Hackathon</title>
 </head>

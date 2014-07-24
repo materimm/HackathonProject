@@ -29,35 +29,71 @@ function populateSelect()
 
 function populateMenu()
 {
+	
 	var stationMenuOptions = [
 	                    ["Bagel", "Omlet", "Hashbrowns"], /*breakfast*/      
 	                   	["Tacos", "Rice"], /*mexican*/
 	                   	["Make Your Own", "Chicken Ceasar Wrap", "Rueben"], /*sandwich*/
 	                   	["Hamburger", "Chicken Sandwich", "French Fries", "Onion Rings"], /*grill*/
-	                   	["Pizza Slice", "Calzone", "Pizzarita"] /*pizza*/
+	                   	["Pizza Slice", "Calzone", "Pizzarita"], /*pizza*/
 	                   	["Salad Bar"], /*salad*/
 	                   	["Fountain Drink", "Juice", "Bottled Water"], /*drink*/
 	                   	["Chips", "Brownie"]
 	                   ];
 	
 	var options = $('#categories').val() - 1;
-	console.log(options);
 	if (options === -1) 
 	{
-
+		//do nothing
 	} 
-	else 
+	else
 	{
 		$("#menu").empty();
 		var opt = stationMenuOptions[options];
-		console.log(opt);
-		$("#menu").append($("<th>Item</th><th>Price</th>"));
+		
+		
+		$("#menu").append($("<th>Item</th><th>Price</th><th>Check to get</th><th>Quantity</th>"));
 		for (var i = 0; i < opt.length; i++) 
 		{
-			$("#menu").append($("<tr>"));
-			$("#menu").append($("<td></td>").text(opt[i]));
-			$("#menu").append($("<td>$$$</td>"));
-			$("#menu").append($("</tr>"));
+			$("#menu").append($("<tr><td>" + opt[i] + "</td><td>$$$</td>" +
+					"<td><input type=\"checkbox\" id=check\""+ i + "\"></td>" +
+					"<td><input id=\"spinner" + i + "\" name=\"value\"></td></tr>"));
+			$( "#spinner" + i).spinner();
 		}
+
 	}	
 }
+
+
+
+$(document).ready(function(){
+    $("#grill").click(function(){
+    	$("#grillMenu").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#sw").click(function(){
+    	$("#swMenu").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#mex").click(function(){
+    	$("#mexMenu").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#pizza").click(function(){
+    	$("#pizzaMenu").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#drink").click(function(){
+    	$("#drinkMenu").toggle();
+    });
+});
+
+
