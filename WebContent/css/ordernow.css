@@ -58,8 +58,15 @@ label span {
 .ma-heading {
     color: #3670BB;
     font-family: GE Inspira, sans-serif;
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 36px;
+}
+
+.ma-heading-large {
+    color: #3670BB;
+    font-family: GE Inspira, sans-serif;
+    font-size: 51px;
+    font-weight:normal;
+    text-shadow: 1px 1px #FFFFFF;
 }
 
 .ma-heading-small{
@@ -70,10 +77,26 @@ label span {
 }
 
 .ma-heading-button {
-    color: #white;
+    color: #FFFFFF;
     font-family: GE Inspira, sans-serif;
     font-size: 12px;
     font-weight: bold;
+}
+
+.order-heading
+{
+	 color: #white;
+    font-family: GE Inspira, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.textoutline{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 .ma-label{
@@ -114,7 +137,7 @@ li.block{
 #lead_content {
   padding-bottom: 60px;
   position: relative;
-  padding-top:100px;
+  padding-top:251px;
 }
 
 .centering{
@@ -170,7 +193,7 @@ border-color: #4cae4c;
 }
 .menutext{
 	 font-family: GE Inspira, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 .menubackground{
 	background-color : #99FFCC;
@@ -255,7 +278,7 @@ margin: 75px 0;
       color: #3670BB;
     font-family: GE Inspira, sans-serif;
     font-size: 25px;
-    font-weight: bold;
+  
   }
   
   .center {

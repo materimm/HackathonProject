@@ -16,15 +16,14 @@
 </head>
 <body onload="init()" class="bodysize">
 <div class="backgroundimage">
-	<div class="container text-center">
+	<div class="container text-center" style="position:relative">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="padding-top: 50px;">
 					
-					<div class="ma-heading col-lg-4" style="margin-left:36.333333%"><img src="../images/gelogocropped - Copy.jpg" style="width: 53px;margin-right:3px">OrderNow</div>
+					<div class="ma-heading col-lg-4" style="margin-left:36.333333%"><img src="../images/gelogocropped - Copy.jpg" style="width: 50px;margin-right:3px">OrderNow</div>
 				</div>
-
 	
 	
-	<div class="navbar navbar-inverse menutext col-lg-7 col-lg-offset-3">
+	<div class="navbar navbar-inverse menutext col-lg-7 col-lg-offset-3" style="margin-top:15px">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,18 +32,18 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">Menus</a>
           </div>
           <div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav" id="stations">
-              <li class="active" id="special"><a href="#">Special</a></li>
+            <ul class="nav navbar-nav" id="stations">
+              <li class="active" id="#"><a href="#">Special</a></li>
               <li id="grill"><a href="#">Grill</a></li>
               <li id="pizza"><a href="#">Pizzaria</a></li>
               <li id="sw"><a href="#">Sandwiches</a></li>
 				<li id="mex"><a href="#">Tacos</a></li>
-				<li id="dands"><a href="#">Drinks and Snacks</a></li>            
+				<li id="dands"><a href="#d">Drinks and Snacks</a></li>
+            
             </ul>
-		</div><!--/.nav-collapse -->
+          </div><!--/.nav-collapse -->
           </div>
           </div>
          <div class="menutext clear col-lg-4" style="margin-left:37.333333%" id="pantrylist">
@@ -58,8 +57,10 @@
 		<li class="block"><input type="checkbox" id="cs">Chicken Sandwich</li>
 		<li class="block"><input type="checkbox" id="ff">French Fries</li>
 	</ul>
+	
 	<img src="../images/burger.png" id="burger" style="display:none" height="100px" width="200px">
 	<img src="../images/fries.png" id="fries" style="display:none" height="100px" width="200px">
+	
 	<ul id="swMenu">
 		<li class="block"><input type="checkbox" id="ccw">Chicken Ceasar Wrap</li>
 		<li class="block"><input type="checkbox" id="rue">Rueban</li>

@@ -33,14 +33,14 @@ function fillOrder(checked)
 	var prices = [6.99,5.99,3.99,3.99,1.49,6.49,5.99,6.99,5.99,2.99,2.79,3.79,4.79,1.89,1.99,1.49];
 	var check = document.cookie;
 	var checkArray = check.split(",");
-	$("myorder").empty();
+	$("#myorder").empty();
 	for(i=0; i<=checkArray.length-1; i++)
 	{
 		for(j=0; j<=checkBoxIdList.length-1; j++)
 		{
 			if(checkArray[i] === checkBoxIdList[j])
 			{
-				$("#myorder").append("<li>" +menuItems[j] + " - " + prices[j] + "</li>");
+				$("#myorder").append("<li class=\"block\">" +menuItems[j] + " - " + prices[j] + "</li>");
 				total += prices[j];
 				$("#price").empty();
 				break;
@@ -53,6 +53,13 @@ function fillOrder(checked)
 
 function confirm()
 {
+	$("#myorder").empty();
+	$("#name").empty();
+	$("#phonenum").empty();
+	$("#time").empty();
+	$("#price").empty();
+	$("#price").append("$0.00");
 	$("#complete").empty();
 	$("#complete").append("Order Completed");
+	alert("Order Completed");
 }
