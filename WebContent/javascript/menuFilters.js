@@ -74,4 +74,18 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function () {
+    $('#hb').hover(function(){
+        $('#burger').show(); //displays image on mouse in
+    },function(){
+        $('#burger').hide(); //hides image on mouse out
+    });
+});
 
+$(document).ready(function () {
+    $('#ff').hover(function(){
+        $('#fries').show(); //displays image on mouse in
+    },function(){
+        $('#fries').hide(); //hides image on mouse out
+    });
+});

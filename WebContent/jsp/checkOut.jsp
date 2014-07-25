@@ -16,6 +16,7 @@
 	<label>Phone Number (optional): </label><input type="text" id="phonenum"><br>
 	<label>Pick up time: </label><input type="time" id="time"><br>
 	<label>Total Price: </label> <label id="price">$0.00</label>
-	<input type="button" id="confirm" value="confirm">
+	<input type="button" id="confirm" value="confirm" onclick="confirm()">
+	<label id="complete"></label>
 </body>
 </html>

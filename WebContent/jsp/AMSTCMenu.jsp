@@ -21,7 +21,7 @@
 					
 					<div class="ma-heading col-lg-4" style="margin-left:36.333333%"><img src="../images/gelogocropped - Copy.jpg" style="width: 53px;margin-right:3px">OrderNow</div>
 				</div>
-	<div class="menuheading" style="margin-left: 85px;" >AMSTC - Today's Menu</div>
+
 	
 	
 	<div class="navbar navbar-inverse menutext col-lg-7 col-lg-offset-3">
@@ -58,7 +58,8 @@
 		<li class="block"><input type="checkbox" id="cs">Chicken Sandwich</li>
 		<li class="block"><input type="checkbox" id="ff">French Fries</li>
 	</ul>
-	
+	<img src="../images/burger.png" id="burger" style="display:none" height="100px" width="200px">
+	<img src="../images/fries.png" id="fries" style="display:none" height="100px" width="200px">
 	<ul id="swMenu">
 		<li class="block"><input type="checkbox" id="ccw">Chicken Ceasar Wrap</li>
 		<li class="block"><input type="checkbox" id="rue">Rueban</li>

@@ -50,3 +50,9 @@ function fillOrder(checked)
 	total = parseFloat(total).toFixed(2);
 	$("#price").append("$" + total);
 }
+
+function confirm()
+{
+	$("#complete").empty();
+	$("#complete").append("Order Completed");
+}
